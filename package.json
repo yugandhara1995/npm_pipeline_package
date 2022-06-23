@@ -3,9 +3,9 @@
   "version": "0.0.1",
   "description": "poc for pipeline to build test and publish the package",
   "main": "src/index.js",
-  // "scripts": {
-  //   "test": "echo \"Error: no test specified\" && exit 1"
-  // },
+  "scripts": {
+    "test": "jest"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/yugandhara1995/npm_pipeline_package.git"
@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/yugandhara1995/npm_pipeline_package/issues"
   },
-  "homepage": "https://github.com/yugandhara1995/npm_pipeline_package#readme"
+  "homepage": "https://github.com/yugandhara1995/npm_pipeline_package#readme",
+  "devDependencies": {
+    "jest": "^28.1.1"
+  }
 }
