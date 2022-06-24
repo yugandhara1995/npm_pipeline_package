@@ -1,5 +1,5 @@
 {
-  "name": "example-github-pipeline",
+  "name": "@yugandhara1995/example-github-pipeline",
   "version": "0.0.1",
   "description": "poc for pipeline to build test and publish the package",
   "main": "src/index.js",
