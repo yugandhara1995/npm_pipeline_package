@@ -28,7 +28,7 @@ jobs:
         with:
           node-version: '16.x'
           registry-url: 'https://registry.npmjs.org'
-          scope: 'yugandhara1995'
+          scope: '@yugandhara1995'
       - run:
             echo "//registry.npmjs.org/:_authToken=${{ secrets.NPM_PUBLISH_TOKEN }}" > 
             ~/.npmrc
